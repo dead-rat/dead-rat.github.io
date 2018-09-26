@@ -4,8 +4,8 @@ title: How We Store Data in the Cloud at Auth0
 metatitle: How We Store Data in the Cloud at Auth0
 description: Learn how Auth0 uses different datastores to serve a wide variety of use cases and power critical features.
 metadescription: Learn how Auth0 uses different datastores, including MongoDB and PostgreSQL, to serve a wide variety of use cases and power critical features for customers.
-date: 2018-09-07 13:26
-category: Auth0 Engineering, Stack, Database
+date: 2018-09-26 13:26
+category: Technical Guide, Auth0 Engineering, Database
 author:
   name: Dirceu Tiegs
   url: https://twitter.com/dirceu
@@ -30,11 +30,11 @@ tags:
   - data
 related:
   - 2018-08-15-auth0-architecture-running-in-multiple-cloud-providers-and-regions
-  - 2018-06-07-developing-well-organized-apis-with-nodejs-joi-and-mongo
+  - 2018-09-20-a-scout-approach-to-software-development
   - 2018-08-08-introduction-to-redis-install-cli-commands-and-data-types
 ---
 
-Auth0 uses different datastores for different purposes. We have tons of datasets used to serve the wide variety of use cases and features we offer to our customers. In an age where data breaches are unfortunately getting more common, a critical side of choosing and using datastores is to consider reliability, durability, and safety. Our platform processes thousands of requests per second (**billions of logins per month**) for customers all around the world &mdash; and we're growing very fast!
+Auth0 uses different datastores for different purposes. We have tons of datasets used to serve the wide variety of use cases and features we offer to our customers. In an age where data breaches are unfortunately getting more common, a critical side of choosing and using datastores is to consider reliability, durability, and safety. Our platform processes thousands of requests per second (**billions of logins per month**) for customers all around the — and we're growing very fast!
 
 The Site Reliability team is a new initiative aimed at improving reliability and uptime in a data-driven way to support our customers' needs. Our team works closely with other teams to define and apply best practices through coding, writing, workshops, training, and leading different initiatives related to reliability, performance, and observability.
 
