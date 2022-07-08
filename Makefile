@@ -10,15 +10,15 @@ build_deb: bundle build_pages check-version-variable check-deb-variables
 
 	fpm -C $(WORKSPACE) --deb-user www-data --deb-group www-data \
 	--prefix /opt/auth0 \
- 	--url ' $(GIT_URL)' --version $(VERSION_NUMBER) -n auth0-blog \
+ 	--url ' $(GIT_URL)' --version $(VERSION_NUMBER) -n blog \
 	-x '**/.git*' -x '*.tgz' -x '**/test/*' \
-	--description 'Auth0 Blog $(VERSION_NUMBER) - git commit $(GIT_BRANCH)-$(GIT_COMMIT)' \
-	-t deb -s dir auth0-blog
+	--description 'Blog $(VERSION_NUMBER) - git commit $(GIT_BRANCH)-$(GIT_COMMIT)' \
+	-t deb -s dir blog
 
 	git checkout .
 
 build_pages:
-	jekyll build --destination auth0-blog --trace
+	jekyll build --destination blog --trace
 
 check-version-variable:
 ifndef VERSION_NUMBER
