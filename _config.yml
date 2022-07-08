@@ -13,6 +13,7 @@ ampdir: 'amp'
 is_non-tech: false
 non-tech_dir: 'business'
 tech_dir: 'tech'
+theme: null
 only_first_p:
   show_read_more_link: true
   read_more_link_text: 'Read more'
