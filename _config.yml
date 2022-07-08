@@ -1,6 +1,6 @@
 title: 'Auth0 Blog'
 description: 'Company Updates & Technology Articles'
-url: 'https://auth0.com'
+url: 'https://deadrat.com'
 baseurl: '/blog'
 markdown: rdiscount
 paginate: 5
